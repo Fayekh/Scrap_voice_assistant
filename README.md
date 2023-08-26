@@ -22,3 +22,5 @@ To open an application add this code in Task.py :
 
   After adding this in Task.py, also update it in intents.json and run the Train.py (delete the old TrainData.pth)
 
+  And yeah, make sure to install all the necessary dependencies and packages.
+
