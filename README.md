@@ -11,10 +11,10 @@ Make sure to delete the TrainData.pth and run the Train.py again after making an
 
 #Adding new commands like opening an application 
 To open an application add this code in Task.py :
-
-  elif "open chrome" in query:
-        gcpath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
-        os.startfile(gcpath)
+ 
+    elif "open chrome" in query:
+         gcpath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+         os.startfile(gcpath)
 
   Here,
   "open chrome" part is the command you want to use for opening the application
