@@ -1,0 +1,290 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello","hi","hey","wake up", "hi there"],
+            "responses":["Hi there", "Hello", "Hi"]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","how you","how you doing","are you good"],
+            "responses":["I'm great.","I'm Fine."]
+        },
+        {
+            "tag":"identity",
+            "patterns":["your name","what is your name","who are you","what are you"
+            ],
+            "responses":["Scrap","I Am Scrap.", "My Name is Scrap."]
+        },
+        {
+            "tag":"time",
+            "patterns":["what is time","what's the time", "tell me the time"],
+            "responses":["time"]
+        },
+        {
+            "tag":"date",
+            "patterns":["what is date", "what's the date", "what is today's date", "tell me the date"],
+            "responses":["date"]
+        },
+        {
+            "tag":"day",
+            "patterns":["what is the day","today's day", "what's the day","today", "tell me the day today"],
+            "responses":["day"]
+        },
+        {
+            "tag":"open google",
+            "patterns":["open google","turn on google","google please"],
+            "responses":["open google"]
+        },
+         {
+            "tag":"open camera",
+            "patterns":["open camera","start camera","open the camera", "turn on camera","can you open camera", "turn on the camera"],
+            "responses":["open camera"]
+        },
+         {
+            "tag":"close camera",
+            "patterns":["close camera","shut down camera","close the camera", "turn off camera","can you close camera", "turn off the camera", "shut down the camera"],
+            "responses":["close camera"]
+        },
+         {
+            "tag":"take photo",
+            "patterns":["take a photo","can you take a picture","can you take a photo","take photo","take a picture", "take picture", "click a photo", "click a picture", "click photo"],
+            "responses":["take photo"]
+        },
+        {
+            "tag":"open chrome",
+            "patterns":["open chrome","open google chrome","can you please open chrome","launch google chrome", "turn on chrome", "launch chrome", "activate google chrome", "activate chrome"],
+            "responses":["open chrome"]
+        },
+        {
+            "tag":"close chrome",
+            "patterns":["close chrome","close google chrome","off google chrome","can you close chrome","can you close chrome", "turn off chrome", "shut down chrome", "deactivate google chrome", "deactivate chrome"],
+            "responses":["close chrome"]
+        },
+        {
+            "tag":"play music",
+            "patterns":["play music","play a music","play a song", "play song","can you play music", "play some songs","want to listen music","want to listen song","want to listen songs","want to listen musics","want to listen some music", "let's hear some musics", "let's hear some music", "music time", "let's hear some songs", "let's here some song", "play songs", "play musics"],
+            "responses":["play music"]
+        },
+        {
+            "tag":"close music",
+            "patterns":["close music", "turn off music", "close media player", "turn off media player", "don't want to listen"],
+            "responses":["close music"]
+        },
+        {
+            "tag":"close notepad",
+            "patterns":["close notepad", "turn off notepad", "turn off the notepad", "stop notepad", "close the notepad"],
+            "responses":["close notepad"]
+        },
+        {
+            "tag":"move mouse right",
+            "patterns":["move mouse right", "move the mouse right", "mouse go right"],
+            "responses":["move mouse right"]
+        },
+        {
+            "tag":"move mouse left",
+            "patterns":["move mouse left", "move the mouse left", "mouse go left"],
+            "responses":["move mouse left"]
+        },
+        {
+            "tag":"move mouse top right",
+            "patterns":["move mouse top right", "move mouse up right","mouse go up right", "move the mouse top right", "mouse go top right", "mouse go top right corner", "move mouse top right corner"],
+            "responses":["move mouse top right"]
+        },
+        {
+            "tag":"move mouse top left",
+            "patterns":["move mouse top left", "move mouse up left","mouse go up left", "move the mouse top left", "mouse go top left", "mouse go top left corner", "move mouse top left corner"],
+            "responses":["move mouse top left"]
+        },
+        {
+            "tag":"move mouse up",
+            "patterns":["move mouse up", "move the mouse up", "mouse go up"],
+            "responses":["move mouse up"]
+        },
+        {
+            "tag":"move mouse down",
+            "patterns":["move mouse down", "move the mouse down", "mouse go down"],
+            "responses":["move mouse down"]
+        },
+        {
+            "tag":"move mouse bottom right",
+            "patterns":["move mouse bottom right", "mouse go down right", "move mouse down right", "move the mouse bottom right", "mouse go bottom right", "mouse go bottom right corner", "move mouse bottom right corner"],
+            "responses":["move mouse bottom right"]
+        },
+        {
+            "tag":"move mouse bottom left",
+            "patterns":["move mouse bottom left", "mouse go down left", "move mouse down left", "move the mouse bottom left", "mouse go bottom left", "mouse go bottom left corner", "move mouse bottom left corner"],
+            "responses":["move mouse bottom left"]
+        },
+        {
+            "tag":"open notepad",
+            "patterns":["open notepad", "turn on notepad", "turn on the notepad", "start notepad", "open the notepad", "launch notepad", "activate notepad"],
+            "responses":["open notepad"]
+        },
+        {
+            "tag":"activate voice typing",
+            "patterns":["activate voice typing", "turn on voice typing", "turn on the voice typing", "start voice typing", "launch voice typing"],
+            "responses":["activate voice typing"]
+        },
+        {
+            "tag":"open youtube",
+            "patterns":["activate youtube", "turn on youtube", "open youtube", "start youtube", "launch youtube", "play on youtube"],
+            "responses":["open youtube"]
+        },
+        {
+            "tag":"calculation",
+            "patterns":["activate calculation", "turn on calculation", "open calculation mode", "calculation mode", "launch calculation", "let's do some calculation", "let's do maths", "let's try some maths"],
+            "responses":["calculation"]
+        },
+        {
+            "tag":"meaning",
+            "patterns":["what is the meaning of", "meaning of", "what's the meaning of", "tell me the meaning of", "tell the meaning"],
+            "responses":["meaning"]
+        },
+        {
+            "tag":"information",
+            "patterns":["activate information", "turn on information", "open information mode", "information mode", "launch information", "need some information", "give me some information", "give me information"],
+            "responses":["information"]
+        },
+        {
+            "tag":"increase brightness",
+            "patterns":["increase brightness", "increase the brightness", "increase the screen brightness", "increase screen brightness", "up the brightness", "up the screen brightness"],
+            "responses":["increase brightness"]
+        },
+        {
+            "tag":"decrease brightness",
+            "patterns":["decrease brightness", "decrease the brightness", "decrease the screen brightness", "decrease screen brightness", "down the brightness", "low down the screen brightness", "low down brightness"],
+            "responses":["decrease brightness"]
+        },
+        {
+            "tag":"volume up",
+            "patterns":["increase the volume", "volume up", "increase volume", "up the volume", "increase the sound", "increase sound", "unmute", "turn on sound"],
+            "responses":["volume up"]
+        },
+        {
+            "tag":"volume down",
+            "patterns":["decrease the volume", "volume down", "decrease volume", "down the volume", "decrease the sound", "decrease sound"],
+            "responses":["volume down"]
+        },
+        {
+            "tag":"mute",
+            "patterns":["mute the volume", "sound off", "turn off sound", "turn off volume"],
+            "responses":["mute"]
+        },
+        {
+            "tag":"pause",
+            "patterns":["pause the video", "make the video pause", "pause video"],
+            "responses":["pause"]
+        },
+        {
+            "tag":"restart video",
+            "patterns":["restart the video", "make the video restart", "restart video", "start the video from the beginning", "start video from the beginning"],
+            "responses":["restart video"]
+        },
+        {
+            "tag":"play",
+            "patterns":["play the video", "make the video play", "play video", "start video", "play again"],
+            "responses":["play"]
+        },
+        {
+            "tag":"full screen",
+            "patterns":["full screen the video", "make the video full screen", "full screen video", "full screen video", "fullscreen video", "fullscreen"],
+            "responses":["full screen"]
+        },
+        {
+            "tag":"exit full screen",
+            "patterns":["exit full screen", "turn off full screen", "exit full screen video", " exit fullscreen", "off full screen"],
+            "responses":["exit full screen"]
+        },
+        {
+            "tag":"open word",
+            "patterns":["open word", "open microsoft word", "launch microsoft word", "launch word", "start word", "start microsoft word"],
+            "responses":["open word"]
+        },
+        {
+            "tag":"close word",
+            "patterns":["close word", "close microsoft word", "turn off microsoft word", "turn off word", "off word", "off microsoft word"],
+            "responses":["close word"]
+        },
+        {
+            "tag":"screenshot",
+            "patterns":["take screenshot", "take a screenshot", "take a picture of the screen", "take a photo of the screen", "click a screenshot", "screenshot"],
+            "responses":["screenshot"]
+        },
+        {
+            "tag":"copy",
+            "patterns":["copy it", "copy this", "copy", "copy these", "make a copy", "need a copy"],
+            "responses":["copy"]
+        },
+        {
+            "tag":"paste",
+            "patterns":["paste it", "paste here", "paste"],
+            "responses":["paste"]
+        },
+        {
+            "tag":"press enter",
+            "patterns":["press enter", "hit enter", "keyboard enter button"],
+            "responses":["press enter"]
+        },
+        {
+            "tag":"save",
+            "patterns":["save it", "save this", "save these"],
+            "responses":["save"]
+        },
+        {
+            "tag":"mouse click",
+            "patterns":["do a mouse click", "mouse click", "mouse left click", "perform a mouse click", "click mouse left button"],
+            "responses":["mouse click"]
+        },
+        {
+            "tag":"mouse right click",
+            "patterns":["do a mouse right click", "mouse right click", "perform a mouse right click", "click mouse right button"],
+            "responses":["mouse right click"]
+        },
+        {
+            "tag":"mouse double click",
+            "patterns":["do a mouse double click", "mouse double click", "perform a mouse double click", "double click"],
+            "responses":["mouse double click"]
+        },
+        {
+            "tag":"scroll up",
+            "patterns":["do a mouse scroll up", "mouse scroll up", "perform a mouse scroll up", "scroll up the page", "scroll up"],
+            "responses":["scroll up"]
+        },
+        {
+            "tag":"scroll down",
+            "patterns":["do a mouse scroll down", "mouse scroll down", "perform a mouse scroll down", "scroll down the page", "scroll down"],
+            "responses":["scroll down"]
+        },
+        {
+            "tag":"shutdown",
+            "patterns":["shutdown the computer", "turn off the computer", "shutdown laptop", "turn off the laptop", "shutdown computer", "shutdown the laptop"],
+            "responses":["shutdown"]
+        },
+        {
+            "tag":"restart computer",
+            "patterns":["restart the computer", "restart laptop", "restart the laptop", "restart computer", "restart the laptop"],
+            "responses":["restart computer"]
+        },
+        {
+            "tag":"sleep computer",
+            "patterns":["sleep the computer", "make the computer sleep", "sleep laptop", "sleep the laptop", "sleep computer", "sleep the laptop", "make the laptop sleep"],
+            "responses":["sleep computer"]
+        },
+        {
+            "tag":"set alarm",
+            "patterns":["set alarm", "need to set alarm", "turn on alarm"],
+            "responses":["set alarm"]
+        },
+        {
+            "tag":"ip address",
+            "patterns":["what is my ip address", "need my ip address", "tell my ip address"],
+            "responses":["ip address"]
+        },
+          {
+            "tag":"thanks",
+            "patterns":["thanks", "nice", "thank you", "thank you so much"],
+            "responses":["Welcome", "My pleasure"]
+        }
+    ]
+}
