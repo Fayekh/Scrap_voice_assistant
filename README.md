@@ -3,6 +3,8 @@ Scrap, a simple voice assistant for Windows developed using Python.
 
 Make sure the internet and microphone are connected and working properly else the program will throw errors. 
 
+To use voice typing just say "Activate voice typing". For mathematical and general knowledge stuff just say "Activate calculation".
+
 While using the program for the first time, make sure to run the Train.py first. It will TrainData.pth. Do not delete it. Then run Scrap.py and it will start working.
 
 You can add your own custom commands using intents.json and Task.py
